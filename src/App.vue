@@ -9,13 +9,13 @@
     import { RouterView } from "vue-router";
 
     // Analitics
-    // if(window.location.hostname != "localhost" && !window.location.hostname.includes('192.168')) {
-    //     let analiticsScript = document.createElement('script');
-    //     analiticsScript.setAttribute('src', 'https://wikistats.valentinllv.cloud/script.js');
-    //     analiticsScript.dataset.websiteId = "30cf85d2-ee24-43bd-beaa-ca8f7b2a4bfe";
+    if(window.location.hostname != "localhost" && !window.location.hostname.includes('192.168')) {
+        let analiticsScript = document.createElement('script');
+        analiticsScript.setAttribute('src', 'http://analitics.valentinllv.cloud/script.js');
+        analiticsScript.dataset.websiteId = "56795c30-0299-4b2b-b985-66233e8be53f";
         
-    //     document.head.appendChild(analiticsScript);
-    // }
+        document.head.appendChild(analiticsScript);
+    }
 </script>
 
 <style scoped>
