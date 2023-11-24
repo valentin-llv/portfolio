@@ -114,7 +114,7 @@
                         </ul>
 
                         <p class="color-900 text-3xl lg:text-4xl text-justify">
-                            Accesible depuis l'ecran d'accueil de votre télephone en un clique, MonUFR est en fait PWA: un site internet installable. L'application
+                            Accesible depuis l'écran d'accueil de votre télephone en un clique, MonUFR est en fait PWA: un site internet installable. L'application
                             a ainsi l'avantage d'etre disponible sur toutes les platformes tout en permettant l'accès hors ligne comme une veritable application.
                         </p>
                     </div>
