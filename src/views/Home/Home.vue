@@ -25,7 +25,7 @@
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-20 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Me contacter </p>
 
-                        <img class="h-12 aspect-square" src="/icons/arrow-forward.svg" />
+                        <img class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
                     </div>
                 </a>
             </div>
@@ -88,7 +88,7 @@
         <div id="projects" class="pl-8 pr-8 lg:pl-0 lg:pr-0 w-full flex flex-col items-center z-10 pt-20 mt-12 lg:mt-20 gap-8 lg:gap-10">
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
                 <div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
-                    <img src="/icons/monufr.png" class="h-14 sm:h-20" />
+                    <img src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
                     <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl"><a href="https://monufr.fr" target="_blank"> (https://monufr.fr) </a></span> </h3>
                 </div>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a href="https://monufr.fr" target="_blank"> (https://monufr.fr) </a></p>
@@ -96,7 +96,7 @@
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-8">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden">
-                            <img src="/images/monufr.png" />
+                            <img src="@/assets/images/monufr.png" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-4">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden rounded-xl">
-                            <img src="/images/cyclowtech.png" />
+                            <img src="@/assets/images/cyclowtech.png" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -168,9 +168,9 @@
                     </p>
 
                     <div class="flex flex-row gap-8 mt-5 flex-1 min-w-fit justify-center items-center">
-                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img class="h-20 aspect-square" src="/icons/github.svg" /> </a>
+                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/github.svg" /> </a>
 
-                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img class="h-20 aspect-square" src="/icons/linkedin.svg" /> </a>
+                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/linkedin.svg" /> </a>
                     
                         <a href="/resume/Valentin LE LIEVRE - CV.pdf" target="_blank"><div class="bg-accent rounded-full p-5 sm:p-6 pl-6 pr-6 sm:pl-14 sm:pr-14 cursor-pointer duration-200 hover:-translate-y-2.5">
                             <p class="text-3xl sm:text-4xl color-900"> Curriculum </p>
@@ -186,7 +186,7 @@
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-10 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Envoyer un mail </p>
 
-                        <img class="h-12 aspect-square" src="/icons/arrow-forward.svg" />
+                        <img class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
                     </div>
                 </a>
             </div>

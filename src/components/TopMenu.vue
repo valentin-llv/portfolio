@@ -12,15 +12,15 @@
 
             <div class="flex-1 flex flex-row justify-end items-center gap-5 md:gap-7">
                 <a href="#about"><div class="hidden sm:flex justify-center items-center p-5 rounded-full cursor-pointer hover:scale-105 duration-200 hover-effect">
-                    <img class="h-14 aspect-square" src="/icons/finger-print.svg">
+                    <img class="h-14 aspect-square" src="@/assets/icons/finger-print.svg">
                 </div></a>
 
                 <a href="#projects"><div class="hidden sm:flex justify-center items-center p-5 rounded-full cursor-pointer hover:scale-105 duration-200 hover-effect">
-                    <img class="h-14 aspect-square" src="/icons/tray.svg">
+                    <img class="h-14 aspect-square" src="@/assets/icons/tray.svg">
                 </div></a>
 
                 <a href="#contact"><div class="hidden sm:flex justify-center items-center p-5 rounded-full cursor-pointer hover:scale-105 duration-200 hover-effect">
-                    <img class="h-14 aspect-square" src="/icons/at.svg">
+                    <img class="h-14 aspect-square" src="@/assets/icons/at.svg">
                 </div></a>
 
                 <a href="/resume/Valentin LE LIEVRE - CV.pdf" target="_blank"><div class="work rounded-full p-5 sm:p-6 pl-6 pr-6 sm:pl-14 sm:pr-14 cursor-pointer duration-200 hover:-translate-y-2.5 hover:scale-105 sm:ml-3 md:ml-20">
