@@ -11,7 +11,7 @@
         <!-- Head -->
         <div class="w-full flex sm:justify-center z-10 mt-32 lg:mt-64">
             <div class="pl-12 pr-12 sm:pl-0 sm:pr-0 sm:w-4/5 max-w-[2200px]">
-                <h2 class="hidden sm:block text-6xl color-900 font-medium"> Hey 👋, </h2>
+                <p class="hidden sm:block text-6xl color-900 font-medium poppins"> Hey 👋, </p>
                 <h1 class="hidden sm:block text-8xl mt-2 color-900"> Je m'appelle <span class="text-gradient font-bold">Valentin Le Lièvre</span> </h1>
 
                 <h1 class="text-left sm:hidden text-6xl color-900"> Hey 👋, je&nbsp;m'appelle <span class="text-gradient font-bold">Valentin&nbsp;Le&nbsp;Lièvre</span> </h1>
@@ -21,11 +21,11 @@
                     developpement web, d'electronique et d'IOT.
                 </p>
 
-                <a href="#contact">
+                <a href="#contact" aria-label="Aller a la section contact">
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-20 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Me contacter </p>
 
-                        <img class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
+                        <img alt="Fleche vers la droite" class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
                     </div>
                 </a>
             </div>
@@ -48,7 +48,7 @@
                             Scrollez un peu pour voir quelques-une de mes realisations.
                             <br /><br />
                             En ce moment je travaille sur l'application d'emploi du temps 
-                            <a class="cursor-pointer underline color-accent" target="_blank" :href=monufr>MonUFR</a> 
+                            <a aria-label="Lien vers l'application MonUFR" class="cursor-pointer underline color-accent" target="_blank" :href=monufr>MonUFR</a> 
                             et sur le jeu WikiChallenge.
                             <br /><br />
                             J'ai aussi la chance de pouvoir participer à la coupe de France de robotique 2024 avec l'association de Robotech de Polytech Sorbonne.
@@ -87,16 +87,16 @@
         <!-- Projects -->
         <div id="projects" class="pl-8 pr-8 lg:pl-0 lg:pr-0 w-full flex flex-col items-center z-10 pt-20 mt-12 lg:mt-20 gap-8 lg:gap-10">
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
-                <a :href=monufr target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
-                    <img src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
+                <a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
+                    <img alt="Logo de l'application MonUFR" src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
                     <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl">({{monufr}})</span> </h3>
                 </div></a>
-                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a :href=monufr target="_blank"> ({{monufr}}) </a></p>
+                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"> ({{monufr}}) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-8">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden">
-                            <img src="@/assets/images/monufr.png" />
+                            <img alt="Logo de l'application MonUFR" src="@/assets/images/monufr.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -122,15 +122,15 @@
             </div>
 
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
-                <a href="https://cyclowtech.org" target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
+                <a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
                     <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl">(https://cyclowtech.org)</span> </h3>
                 </div></a>
-                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></p>
+                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-4">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden rounded-xl">
-                            <img src="@/assets/images/cyclowtech.png" />
+                            <img alt="Logo du site Cyclow-tech" src="@/assets/images/cyclowtech.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -168,11 +168,11 @@
                     </p>
 
                     <div class="flex flex-row gap-8 mt-5 flex-1 min-w-fit justify-center items-center">
-                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/github.svg" /> </a>
+                        <a aria-label="Lien vers ma page GitHub" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/github.svg" /> </a>
 
-                        <a class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/linkedin.svg" /> </a>
+                        <a aria-label="Lien vers ma page Linkedin" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/linkedin.svg" /> </a>
                     
-                        <a href="/resume/Valentin LE LIEVRE - CV.pdf" target="_blank"><div class="bg-accent rounded-full p-5 sm:p-6 pl-6 pr-6 sm:pl-14 sm:pr-14 cursor-pointer duration-200 hover:-translate-y-2.5">
+                        <a aria-label="Lien pour telecharger mon CV" href="/resume/Valentin LE LIEVRE - CV.pdf" target="_blank"><div class="bg-accent rounded-full p-5 sm:p-6 pl-6 pr-6 sm:pl-14 sm:pr-14 cursor-pointer duration-200 hover:-translate-y-2.5">
                             <p class="text-3xl sm:text-4xl color-900"> Curriculum </p>
                         </div></a>
                     </div>
@@ -182,11 +182,11 @@
                     Et pour travailler avec moi ou pour toute autre demande, mon adresse mail est la suivante: <span class="color-accent">lelievre.valentin17@gmail.com</span>
                 </p>
 
-                <a href="mailto:lelievre.valentin17@gmail.com" target="_blank">
+                <a aria-label="Lien vers pour m'envoyer un mail" href="mailto:lelievre.valentin17@gmail.com" target="_blank">
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-10 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Envoyer un mail </p>
 
-                        <img class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
+                        <img alt="Fleche vers la droite" class="h-12 aspect-square" src="@/assets/icons/arrow-forward.svg" />
                     </div>
                 </a>
             </div>
@@ -317,5 +317,9 @@
 
 .inset-shadow {
     box-shadow: inset 0px -95px 30px -40px var(--color-300);
+}
+
+.poppins {
+    font-family: Poppins, sans-serif;
 }
 </style>
