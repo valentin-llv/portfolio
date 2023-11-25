@@ -21,7 +21,7 @@
                     developpement web, d'electronique et d'IOT.
                 </p>
 
-                <a href="#contact" aria-label="Me contacter">
+                <a href="#contact" aria-label="Me contacter ->">
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-20 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Me contacter </p>
 
@@ -96,7 +96,7 @@
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-8">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden">
-                            <img alt="Capture d'ecran de l'application MonUFR" src="@/assets/images/monufr.webp" />
+                            <img class="w-[400px]" alt="Capture d'ecran de l'application MonUFR" src="@/assets/images/monufr.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-4">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden rounded-xl">
-                            <img alt="Capture d'ecran du site Cyclow-tech" src="@/assets/images/cyclowtech.webp" />
+                            <img class="w-[400px]" alt="Capture d'ecran du site Cyclow-tech" src="@/assets/images/cyclowtech.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
