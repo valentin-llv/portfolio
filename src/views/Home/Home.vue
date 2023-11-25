@@ -44,11 +44,11 @@
                             la conception de systèmes électronique à la programmation bas niveau de puces RISC-V en assembleur ou de FPGA en VHDL en 
                             passant par la programmation en C et orienté objets.
                             <br /><br />
-                            En parallèle de mes études je travail sur des projets web et crée des objets connectés pour mon appartement.<br />
+                            En parallèle de mes études je travaille sur des projets web et crée des objets connectés pour mon appartement.<br />
                             Scrollez un peu pour voir quelques-une de mes realisations.
                             <br /><br />
-                            En ce moment je travail sur l'application d'emploi du temps 
-                            <a class="cursor-pointer underline color-accent" target="_blank" href="https://app.monufr.fr">MonUFR</a> 
+                            En ce moment je travaille sur l'application d'emploi du temps 
+                            <a class="cursor-pointer underline color-accent" target="_blank" :href=monufr>MonUFR</a> 
                             et sur le jeu WikiChallenge.
                             <br /><br />
                             J'ai aussi la chance de pouvoir participer à la coupe de France de robotique 2024 avec l'association de Robotech de Polytech Sorbonne.
@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="flex-1 flex flex-col gap-10">
+                <div class="flex-1 flex flex-col-reverse lg:flex-col gap-10">
                     <div class="p-12 rounded-3xl bg-300">
                         <h3 class="color-900 text-5xl lg:text-6xl"> Hobby </h3>
 
@@ -87,11 +87,11 @@
         <!-- Projects -->
         <div id="projects" class="pl-8 pr-8 lg:pl-0 lg:pr-0 w-full flex flex-col items-center z-10 pt-20 mt-12 lg:mt-20 gap-8 lg:gap-10">
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
-                <div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
+                <a :href=monufr target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
                     <img src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
-                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl"><a href="https://monufr.fr" target="_blank"> (https://monufr.fr) </a></span> </h3>
-                </div>
-                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a href="https://monufr.fr" target="_blank"> (https://monufr.fr) </a></p>
+                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl">({{monufr}})</span> </h3>
+                </div></a>
+                <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a :href=monufr target="_blank"> ({{monufr}}) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-8">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
@@ -122,9 +122,9 @@
             </div>
 
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
-                <div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
-                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl"><a href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></span> </h3>
-                </div>
+                <a href="https://cyclowtech.org" target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
+                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl">(https://cyclowtech.org)</span> </h3>
+                </div></a>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-4">
@@ -197,10 +197,12 @@
 </template>
 
 <script setup lang="ts">
-    import { onMounted } from 'vue';
+    import { onMounted, ref } from 'vue';
     
     import TopMenu from '../../components/TopMenu.vue';
     import Footer from '../../components/Footer.vue';
+
+    const monufr = ref("https://app.monufr.fr");
 
     onMounted(() => {
         document.getElementById("page")!.addEventListener("scroll", () => {
