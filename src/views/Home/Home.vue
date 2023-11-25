@@ -35,7 +35,7 @@
         <div id="about" class="w-full flex justify-center z-10 pt-20 mt-12 sm:mt-64">
             <div class="pl-8 pr-8 lg:pl-0 lg:pr-0 lg:w-4/5 max-w-[2200px] flex flex-col lg:flex-row gap-10">
                 <div class="flex flex-col flex-1 p-10 lg:p-12 rounded-3xl bg-300">
-                    <h2 class="color-900 text-5xl lg:text-6xl"> A propos </h2>
+                    <h2 class="color-900 text-5xl lg:text-6xl font-medium"> A propos </h2>
 
                     <div class="flex-1 mt-10 lg:mt-5 flex justify-center items-center">
                         <p class="color-900 text-35xl lg:text-4xl text-justify">
@@ -58,7 +58,7 @@
 
                 <div class="flex-1 flex flex-col-reverse lg:flex-col gap-10">
                     <div class="p-12 rounded-3xl bg-300">
-                        <h2 class="color-900 text-5xl lg:text-6xl"> Hobby </h2>
+                        <h2 class="color-900 text-5xl lg:text-6xl font-medium"> Hobby </h2>
 
                         <p class="color-900 text-35xl lg:text-4xl text-justify mt-10 lg:mt-5">
                             La programmation occupe une petite partie de mon temps extra-scolaire.
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="relative overflow-hidden flex-1 work rounded-3xl p-10">
-                        <h2 class="color-900 text-5xl lg:text-6xl"> Travail </h2>
+                        <h2 class="color-900 text-5xl lg:text-6xl font-medium"> Travail </h2>
 
                         <div class="circle-2 z-0"></div>
 
@@ -89,7 +89,7 @@
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
                 <a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
                     <img alt="Logo de l'application MonUFR" src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
-                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl">({{monufr}})</span> </h2>
+                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end font-medium"> MonUFR <span class="hidden lg:block color-accent text-3xl font-normal">({{monufr}})</span> </h2>
                 </div></a>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"> ({{monufr}}) </a></p>
             
@@ -123,7 +123,7 @@
 
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
                 <a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
-                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl">(https://cyclowtech.org)</span> </h2>
+                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end font-medium"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl font-normal">(https://cyclowtech.org)</span> </h2>
                 </div></a>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></p>
             
@@ -158,7 +158,7 @@
         <!-- Contact -->
         <div id="contact" class="pl-8 pr-8 lg:pl-0 lg:pr-0 w-full flex lg:flex-col items-center z-10 pt-20 mt-12 lg:mt-20">
             <div class="lg:w-4/5 max-w-[2200px] flex-1 p-10 lg:p-12 rounded-3xl bg-300">
-                <h2 class="color-900 text-5xl lg:text-6xl"> En savoir plus </h2>
+                <h2 class="color-900 text-5xl lg:text-6xl font-medium"> En savoir plus </h2>
 
                 <div class="flex flex-col md:flex-row gap-10">
                     <p class="color-900 text-3xl lg:text-4xl text-justify mt-6 md:w-2/3">
