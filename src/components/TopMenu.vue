@@ -2,7 +2,7 @@
     <div class="w-full flex lg:flex-col items-center mt-10 sm:mt-20 sm:mb-10 pl-10 pr-10 lg:pl-0 lg:pr-0">
         <div class="max-w-[2200px] lg:w-4/5 flex flex-row flex-1">
             <div class="flex items-center">
-                <a aria-label="Lien pour retourner en haut de la page" href="/">
+                <a aria-label="@vltn/goto home" href="/">
                     <p class="group text-4xl font-medium sm:font-normal sm:text-5xl color-900 w-fit">
                         @<span class="color-accent">vltn</span>/<span class="opacity-0 duration-150 group-hover:opacity-100 color-800 text-3xl lg:text-4xl">goto home</span>
                         <!-- <span class="hover:opacity-0">{{ $route.name }}</span> -->
@@ -38,10 +38,5 @@
 <style scoped>
 .hover-effect:hover {
     box-shadow: 0px 0px 0px 3px var(--color-accent-1);
-}
-
-.work {
-    background-image: linear-gradient(135deg, #49B583 6%, #3c8adf 100%);
-    filter: brightness(110%);
 }
 </style>

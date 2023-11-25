@@ -21,7 +21,7 @@
                     developpement web, d'electronique et d'IOT.
                 </p>
 
-                <a href="#contact" aria-label="Aller a la section contact">
+                <a href="#contact" aria-label="Me contacter">
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-20 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Me contacter </p>
 
@@ -35,7 +35,7 @@
         <div id="about" class="w-full flex justify-center z-10 pt-20 mt-12 sm:mt-64">
             <div class="pl-8 pr-8 lg:pl-0 lg:pr-0 lg:w-4/5 max-w-[2200px] flex flex-col lg:flex-row gap-10">
                 <div class="flex flex-col flex-1 p-10 lg:p-12 rounded-3xl bg-300">
-                    <h3 class="color-900 text-5xl lg:text-6xl"> A propos </h3>
+                    <h2 class="color-900 text-5xl lg:text-6xl"> A propos </h2>
 
                     <div class="flex-1 mt-10 lg:mt-5 flex justify-center items-center">
                         <p class="color-900 text-35xl lg:text-4xl text-justify">
@@ -58,7 +58,7 @@
 
                 <div class="flex-1 flex flex-col-reverse lg:flex-col gap-10">
                     <div class="p-12 rounded-3xl bg-300">
-                        <h3 class="color-900 text-5xl lg:text-6xl"> Hobby </h3>
+                        <h2 class="color-900 text-5xl lg:text-6xl"> Hobby </h2>
 
                         <p class="color-900 text-35xl lg:text-4xl text-justify mt-10 lg:mt-5">
                             La programmation occupe une petite partie de mon temps extra-scolaire.
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="relative overflow-hidden flex-1 work rounded-3xl p-10">
-                        <h3 class="color-900 text-5xl lg:text-6xl"> Travail </h3>
+                        <h2 class="color-900 text-5xl lg:text-6xl"> Travail </h2>
 
                         <div class="circle-2 z-0"></div>
 
@@ -89,14 +89,14 @@
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
                 <a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
                     <img alt="Logo de l'application MonUFR" src="@/assets/icons/monufr.png" class="h-14 sm:h-20" />
-                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl">({{monufr}})</span> </h3>
+                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end"> MonUFR <span class="hidden lg:block color-accent text-3xl">({{monufr}})</span> </h2>
                 </div></a>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers l'application MonUFR" :href=monufr target="_blank"> ({{monufr}}) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-8">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden">
-                            <img alt="Logo de l'application MonUFR" src="@/assets/images/monufr.webp" />
+                            <img alt="Capture d'ecran de l'application MonUFR" src="@/assets/images/monufr.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -123,14 +123,14 @@
 
             <div class="lg:w-4/5 max-w-[2200px] flex flex-col gap-10 p-10 lg:p-12 rounded-3xl bg-300">
                 <a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"><div class="flex flex-row gap-5 items-center justify-center lg:justify-normal">
-                    <h3 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl">(https://cyclowtech.org)</span> </h3>
+                    <h2 class="color-900 text-6xl flex flex-row gap-5 items-end"> Cyclow-tech <span class="hidden lg:block color-accent text-3xl">(https://cyclowtech.org)</span> </h2>
                 </div></a>
                 <p class="color-accent text-3xl lg:hidden -mt-7 text-center"><a aria-label="Lien vers le site de Cyclow-tech" href="https://cyclowtech.org" target="_blank"> (https://cyclowtech.org) </a></p>
             
                 <div class="flex flex-col lg:flex-row gap-4 lg:gap-10 lg:mt-4">
                     <div class="relative lg:w-1/3 flex justify-center overflow-hidden">
                         <div class="lg:absolute top-0 max-h-[300px] lg:max-h-none overflow-hidden rounded-xl">
-                            <img alt="Logo du site Cyclow-tech" src="@/assets/images/cyclowtech.webp" />
+                            <img alt="Capture d'ecran du site Cyclow-tech" src="@/assets/images/cyclowtech.webp" />
                             <div class="absolute lg:hidden top-full -translate-y-full w-full h-28 inset-shadow"></div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
         <!-- Contact -->
         <div id="contact" class="pl-8 pr-8 lg:pl-0 lg:pr-0 w-full flex lg:flex-col items-center z-10 pt-20 mt-12 lg:mt-20">
             <div class="lg:w-4/5 max-w-[2200px] flex-1 p-10 lg:p-12 rounded-3xl bg-300">
-                <h3 class="color-900 text-5xl lg:text-6xl"> En savoir plus </h3>
+                <h2 class="color-900 text-5xl lg:text-6xl"> En savoir plus </h2>
 
                 <div class="flex flex-col md:flex-row gap-10">
                     <p class="color-900 text-3xl lg:text-4xl text-justify mt-6 md:w-2/3">
@@ -168,9 +168,9 @@
                     </p>
 
                     <div class="flex flex-row gap-8 mt-5 flex-1 min-w-fit justify-center items-center">
-                        <a aria-label="Lien vers ma page GitHub" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/github.svg" /> </a>
+                        <a aria-label="Lien vers ma page GitHub" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://github.com/valentin-llv" target="_blank"> <img alt="Logo GitHub" class="h-20 aspect-square" src="@/assets/icons/github.svg" /> </a>
 
-                        <a aria-label="Lien vers ma page Linkedin" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img class="h-20 aspect-square" src="@/assets/icons/linkedin.svg" /> </a>
+                        <a aria-label="Lien vers ma page Linkedin" class="duration-200 cursor-pointer hover:-translate-y-2.5" href="https://linkedin.com/in/valentin-le-lievre" target="_blank"> <img alt="Logo Linkedin" class="h-20 aspect-square" src="@/assets/icons/linkedin.svg" /> </a>
                     
                         <a aria-label="Lien pour telecharger mon CV" href="/resume/Valentin LE LIEVRE - CV.pdf" target="_blank"><div class="bg-accent rounded-full p-5 sm:p-6 pl-6 pr-6 sm:pl-14 sm:pr-14 cursor-pointer duration-200 hover:-translate-y-2.5">
                             <p class="text-3xl sm:text-4xl color-900"> Curriculum </p>
@@ -182,7 +182,7 @@
                     Et pour travailler avec moi ou pour toute autre demande, mon adresse mail est la suivante: <span class="color-accent">lelievre.valentin17@gmail.com</span>
                 </p>
 
-                <a aria-label="Lien vers pour m'envoyer un mail" href="mailto:lelievre.valentin17@gmail.com" target="_blank">
+                <a aria-label="Envoyer un mail" href="mailto:lelievre.valentin17@gmail.com" target="_blank">
                     <div class="work p-5 pl-12 pr-12 rounded-full w-fit flex flex-row mt-10 justify-center items-center gap-6 duration-200 cursor-pointer hover:-translate-y-2.5 hover:scale-105">
                         <p class="text-4xl color-900"> Envoyer un mail </p>
 
@@ -308,11 +308,6 @@
         filter: blur(200px);
         background-color: var(--color-accent-1); 
     }
-}
-
-.work {
-    background-image: linear-gradient(135deg, #49B583 6%, #3c8adf 100%);
-    filter: brightness(110%);
 }
 
 .inset-shadow {

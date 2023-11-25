@@ -11,17 +11,10 @@
 /* Variables */
 
 :root {
-    --color-900-dark: #FFFFFF;
-    --color-800-dark: #f0e5e5;
-    --color-300-dark: #151a21;
-    --color-200-dark: #0B0E11;
-    --color-100-dark: #0b0e11;
-
-    --color-900: var(--color-900-dark);
-    --color-800: var(--color-800-dark);
-    --color-300: var(--color-300-dark);
-    --color-200: var(--color-200-dark);
-    --color-100: var(--color-100-dark);
+    --color-900: #FFFFFF;
+    --color-800: #f0e5e5;
+    --color-300: #151a21;
+    --color-100: #0B0E11;
 
     --color-accent-1: #49B583;
 }
@@ -35,12 +28,7 @@ body {
 
 /* General style */
 
-* {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-}
-
-*:focus {
+*, *:focus {
     -webkit-tap-highlight-color: transparent;
     outline: none;
 }
@@ -60,24 +48,12 @@ img {
     color: var(--color-900);
 }
 
-.bg-900 {
-    background-color: var(--color-900);
-}
-
 .color-800 {
     color: var(--color-800);
 }
 
-.bg-800 {
-    background-color: var(--color-800);
-}
-
 .bg-300 {
     background-color: var(--color-300);
-}
-
-.bg-200 {
-    background-color: var(--color-200);
 }
 
 .bg-100 {
@@ -110,28 +86,35 @@ img {
     line-height: 2.25rem/* 40px */;
 }
 
+.work {
+    background-image: linear-gradient(135deg, #49B583 6%, #3c8adf 100%);
+    filter: brightness(110%);
+}
+
 /* Scroll bar */
 
 ::-webkit-scrollbar {
     height: 0px;
-    width: 0px;
+    width: 10px;
 }
 
-.see-scroll::-webkit-scrollbar {
-    width: 3px;
+@media screen and (max-width: 840px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent;
+    background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-800);
+    background: var(--color-300);
     border-radius: 1000px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-900);
+    background: #f0e5e555;
 }
 
 /* Selection */

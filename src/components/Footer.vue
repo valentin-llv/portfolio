@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full bg-200">
+    <div class="relative w-full bg-100">
         <div class="flex items-center bg-300 w-full h-10 pl-5 pr-5">
             <hr class="flex-1 opacity-20" />
         </div>
@@ -22,7 +22,3 @@
         </div>
     </div>
 </template>
-
-<script setup lang="ts">
-    
-</script>

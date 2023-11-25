@@ -1,7 +1,7 @@
 <template>
     <!-- Page viewer start -->
     <router-view v-slot="{ Component }">
-        <component class="absolute w-full h-full left-0 top-0 bg-200" :is=Component />
+        <component class="absolute w-full h-full left-0 top-0 bg-100" :is=Component />
     </router-view>
 </template>
 
@@ -17,7 +17,3 @@
         document.head.appendChild(analiticsScript);
     }
 </script>
-
-<style scoped>
-
-</style>
