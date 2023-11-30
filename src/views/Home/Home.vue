@@ -65,7 +65,7 @@
                             <br /><br />
                             Mais lorsque je ne travail pas, je suis probablement sorti avec mes amis, en train de cuisiner ou de jouer de la guitare.
                             <br /><br />
-                            Au fait, j'adore le sport, je fait de l'escalade depuis 5 ans.
+                            Au fait, j'adore le sport, je fais de l'escalade depuis 5 ans.
                         </p>
                     </div>
 
@@ -110,7 +110,7 @@
                         <ul class="color-900 text-3xl lg:text-4xl -mt-8 list-disc pl-16 text-justify">
                             <li> l'emploi du temps dans un format simple et clair, même sur mobile </li>
                             <li> la liste des taches liée a chaque cours </li>
-                            <li> de nombreux raccourcis pour simplier l'usage des services connectés des universités </li>
+                            <li> de nombreux raccourcis pour simplifier l'usage des services connectés des universités </li>
                         </ul>
 
                         <p class="color-900 text-3xl lg:text-4xl text-justify">
