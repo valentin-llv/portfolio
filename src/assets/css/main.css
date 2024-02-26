@@ -8,6 +8,12 @@
     font-size: 10px;
 }
 
+@media screen and (max-width: 850px) {
+    :root {
+        font-size: 8.5px;
+    }
+}
+
 /* Variables */
 
 :root {
