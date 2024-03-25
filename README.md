@@ -2,7 +2,7 @@
 
 Code source de mon portfolio, vous pouvez visiter le site à [cette adresse](https://valentin-lelievre.com).
 
-La versiopn actuelle est la troisième que j'ai réalisé jusqu'ici. Les autres versions sont accesible ci-dessous:
+La version actuelle est la troisième que j'ai réalisé jusqu'ici. Les autres versions sont accesible ci-dessous:
 - [version 2](https://portfolio-v2.valentin-lelievre.com)
 - version 1: désormais non disponible
 
